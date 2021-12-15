@@ -3,13 +3,53 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 .container{
-    width: 1200px;
-    border: 10px aqua solid;
+    margin: 0;
+}
+
+.title{
+    font-weight: 900;
+    font-size: 40px;
+    border: 2px red solid;
+    height: 100px;
+}
+
+button{
+    border: 2px red solid;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+
+i{
+    font-size: 150px;
+}
+
+.paragraph{
+    font-size: 25px;
+    border: 2px blue solid;
+    height: 400px;
+}
+
+img{
+    width: 900px;
+    height: 200px;
+    object-fit: contain;
 }
 
 .title, .paragraph{
-    width: 500px;
-    height: 300px;
+    width: 900px;
     margin: 0 auto;
 }
+
