@@ -42,12 +42,6 @@ i{
     height: 400px;
 }
 
-img{
-    width: 900px;
-    height: 200px;
-    object-fit: contain;
-}
-
 .title, .paragraph{
     width: 900px;
     margin: 0 auto;
