@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1200px;
+    border: 10px aqua solid;
+}
+
+.title, .paragraph{
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+}
